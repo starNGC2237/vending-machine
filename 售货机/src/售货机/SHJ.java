@@ -1,14 +1,14 @@
-package ÊÛ»õ»ú;
+package å”®è´§æœº;
 public class SHJ {
 	public static void main(String[] args) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO è‡ªåŠ¨ç”Ÿæˆçš„æ–¹æ³•å­˜æ ¹
 		float A1=3.0F,B1=2.5F,C1=3.5F,D1=5.0F;
-		System.out.println("¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª\n A1 3.0Ôª  B1 2.5Ôª\n C1 3.5Ôª  D1 5.0Ôª \n"); 
-		System.out.println("ÇëÊäÈë½ğ¶î.\n");
+		System.out.println("â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”\n A1 3.0å…ƒ  B1 2.5å…ƒ\n C1 3.5å…ƒ  D1 5.0å…ƒ \n"); 
+		System.out.println("è¯·è¾“å…¥é‡‘é¢.\n");
 		java.util.Scanner s=new java.util.Scanner(System.in);
-		float money=s.nextFloat();//Í¶Ç®
-		System.out.println("Ñ¡ÔñÒªÂòµÄ¶«Î÷µÄ±àºÅ.\n");//Ñ¡ÒûÁÏ 
-		System.out.println("°´X½áÊø");//½áÊø 
+		float money=s.nextFloat();//æŠ•é’±
+		System.out.println("é€‰æ‹©è¦ä¹°çš„ä¸œè¥¿çš„ç¼–å·.\n");//é€‰é¥®æ–™ 
+		System.out.println("æŒ‰Xç»“æŸ");//ç»“æŸ 
 		while(money>=0){
 			java.util.Scanner C=new java.util.Scanner(System.in);
 			String name=C.next();
@@ -43,23 +43,23 @@ public class SHJ {
 			 	}else if("X".equals(name)) {
 			 		break;
 			 	}else{	
-			 		System.out.println("ÇëÊäÈëÕıÈ·µÄ±àºÅ£¡\n");}	//Êä²»¶Ô»³ÒÉÄãµÄÖÇÉÌ  
-			 		System.out.println("ÄãÏÖÔÚÓĞµÄÇ®£º");
+			 		System.out.println("è¯·è¾“å…¥æ­£ç¡®çš„ç¼–å·ï¼\n");}	//è¾“ä¸å¯¹æ€€ç–‘ä½ çš„æ™ºå•†  
+			 		System.out.println("ä½ ç°åœ¨æœ‰çš„é’±ï¼š");
 			 		System.out.println(money);
-			 		System.out.println("Ñ¡ÔñÒªÂòµÄ¶«Î÷µÄ±àºÅ.\n");//Ñ¡ÒûÁÏ
-			 		System.out.println("°´X½áÊø");//½áÊø
+			 		System.out.println("é€‰æ‹©è¦ä¹°çš„ä¸œè¥¿çš„ç¼–å·.\n");//é€‰é¥®æ–™
+			 		System.out.println("æŒ‰Xç»“æŸ");//ç»“æŸ
 			 	}
 		}
 	
-	//Ñ¡ÔñA1
+	//é€‰æ‹©A1
 			public static float chooseA(float moneyr,float A1){
-				if((moneyr-A1)>=0) {//ÅĞ¶ÏÄãµÄÖ§¸¶ÄÜÁ¦£¨Æ¶ÇîÓë·ñ²é¿´Æ÷£©
+				if((moneyr-A1)>=0) {//åˆ¤æ–­ä½ çš„æ”¯ä»˜èƒ½åŠ›ï¼ˆè´«ç©·ä¸å¦æŸ¥çœ‹å™¨ï¼‰
 					moneyr=moneyr-A1; 
-					System.out.println("Ö§¸¶³É¹¦£¡\n  »ñµÃÒ»Æ¿A1ÒûÁÏ£¡\n");	}
+					System.out.println("æ”¯ä»˜æˆåŠŸï¼\n  è·å¾—ä¸€ç“¶A1é¥®æ–™ï¼\n");	}
 				else{
-					System.out.println("Ö§¸¶AÎ´³É¹¦£¬Çë¼ÓÇ®£¡");//ÈÃÄã´òÇ®
-					System.out.println("ÄúÍ¶ÈëµÄÓ²±ÒÊıÁ¿Îª:\n");//ÊäÈëÇ®Êı
-					System.out.println("(ÊäÈëÊı×Ö0»Øµ½Ö÷²Ëµ¥)\n"); 
+					System.out.println("æ”¯ä»˜AæœªæˆåŠŸï¼Œè¯·åŠ é’±ï¼");//è®©ä½ æ‰“é’±
+					System.out.println("æ‚¨æŠ•å…¥çš„ç¡¬å¸æ•°é‡ä¸º:\n");//è¾“å…¥é’±æ•°
+					System.out.println("(è¾“å…¥æ•°å­—0å›åˆ°ä¸»èœå•)\n"); 
 					java.util.Scanner c=new java.util.Scanner(System.in);
 					float plusmoney=c.nextFloat();
 					moneyr=moneyr+plusmoney;
@@ -72,24 +72,24 @@ public class SHJ {
 						
 					}
 					else{
-					if((moneyr-A1)>=0) {//ÅĞ¶ÏÄãµÄÖ§¸¶ÄÜÁ¦£¨Æ¶ÇîÓë·ñ²é¿´Æ÷£©
+					if((moneyr-A1)>=0) {//åˆ¤æ–­ä½ çš„æ”¯ä»˜èƒ½åŠ›ï¼ˆè´«ç©·ä¸å¦æŸ¥çœ‹å™¨ï¼‰
 						moneyr=moneyr-A1; 
-						System.out.println("Ö§¸¶³É¹¦£¡\n  »ñµÃÒ»Æ¿A1ÒûÁÏ£¡\n");	
+						System.out.println("æ”¯ä»˜æˆåŠŸï¼\n  è·å¾—ä¸€ç“¶A1é¥®æ–™ï¼\n");	
 						return moneyr;}
 						}
 					} 
 				return moneyr;
 			}
 	
-	//Ñ¡ÔñB1
+	//é€‰æ‹©B1
 	public static float chooseB(float moneyr,float B1){
-		if((moneyr-B1)>=0) {//ÅĞ¶ÏÄãµÄÖ§¸¶ÄÜÁ¦£¨Æ¶ÇîÓë·ñ²é¿´Æ÷£©
+		if((moneyr-B1)>=0) {//åˆ¤æ–­ä½ çš„æ”¯ä»˜èƒ½åŠ›ï¼ˆè´«ç©·ä¸å¦æŸ¥çœ‹å™¨ï¼‰
 			moneyr=moneyr-B1; 
-			System.out.println("Ö§¸¶³É¹¦£¡\n  »ñµÃÒ»Æ¿B1ÒûÁÏ£¡\n");	}
+			System.out.println("æ”¯ä»˜æˆåŠŸï¼\n  è·å¾—ä¸€ç“¶B1é¥®æ–™ï¼\n");	}
 		else{
-			System.out.println("Ö§¸¶BÎ´³É¹¦£¬Çë¼ÓÇ®£¡");//ÈÃÄã´òÇ®
-			System.out.println("ÄúÍ¶ÈëµÄÓ²±ÒÊıÁ¿Îª:\n");//ÊäÈëÇ®Êı
-			System.out.println("(ÊäÈëÊı×Ö0»Øµ½Ö÷²Ëµ¥)\n"); 
+			System.out.println("æ”¯ä»˜BæœªæˆåŠŸï¼Œè¯·åŠ é’±ï¼");//è®©ä½ æ‰“é’±
+			System.out.println("æ‚¨æŠ•å…¥çš„ç¡¬å¸æ•°é‡ä¸º:\n");//è¾“å…¥é’±æ•°
+			System.out.println("(è¾“å…¥æ•°å­—0å›åˆ°ä¸»èœå•)\n"); 
 			java.util.Scanner c=new java.util.Scanner(System.in);
 			float plusmoney=c.nextFloat();
 			if(plusmoney==0){
@@ -104,9 +104,9 @@ public class SHJ {
 				
 			}
 			else{
-			if((moneyr-B1)>=0) {//ÅĞ¶ÏÄãµÄÖ§¸¶ÄÜÁ¦£¨Æ¶ÇîÓë·ñ²é¿´Æ÷£©
+			if((moneyr-B1)>=0) {//åˆ¤æ–­ä½ çš„æ”¯ä»˜èƒ½åŠ›ï¼ˆè´«ç©·ä¸å¦æŸ¥çœ‹å™¨ï¼‰
 				moneyr=moneyr-B1; 
-				System.out.println("Ö§¸¶³É¹¦£¡\n  »ñµÃÒ»Æ¿B1ÒûÁÏ£¡\n");	
+				System.out.println("æ”¯ä»˜æˆåŠŸï¼\n  è·å¾—ä¸€ç“¶B1é¥®æ–™ï¼\n");	
 				return moneyr;}
 			}
 		}
@@ -114,15 +114,15 @@ public class SHJ {
 	}
 	
 	
-	//Ñ¡ÔñC1
+	//é€‰æ‹©C1
 		public static float chooseC(float moneyr,float C1){
-			if((moneyr-C1)>=0) {//ÅĞ¶ÏÄãµÄÖ§¸¶ÄÜÁ¦£¨Æ¶ÇîÓë·ñ²é¿´Æ÷£©
+			if((moneyr-C1)>=0) {//åˆ¤æ–­ä½ çš„æ”¯ä»˜èƒ½åŠ›ï¼ˆè´«ç©·ä¸å¦æŸ¥çœ‹å™¨ï¼‰
 				moneyr=moneyr-C1; 
-				System.out.println("Ö§¸¶³É¹¦£¡\n  »ñµÃÒ»Æ¿C1ÒûÁÏ£¡\n");	}
+				System.out.println("æ”¯ä»˜æˆåŠŸï¼\n  è·å¾—ä¸€ç“¶C1é¥®æ–™ï¼\n");	}
 			else{
-				System.out.println("Ö§¸¶CÎ´³É¹¦£¬Çë¼ÓÇ®£¡");//ÈÃÄã´òÇ®
-				System.out.println("ÄúÍ¶ÈëµÄÓ²±ÒÊıÁ¿Îª:\n");//ÊäÈëÇ®Êı
-				System.out.println("(ÊäÈëÊı×Ö0»Øµ½Ö÷²Ëµ¥)\n"); 
+				System.out.println("æ”¯ä»˜CæœªæˆåŠŸï¼Œè¯·åŠ é’±ï¼");//è®©ä½ æ‰“é’±
+				System.out.println("æ‚¨æŠ•å…¥çš„ç¡¬å¸æ•°é‡ä¸º:\n");//è¾“å…¥é’±æ•°
+				System.out.println("(è¾“å…¥æ•°å­—0å›åˆ°ä¸»èœå•)\n"); 
 				java.util.Scanner c=new java.util.Scanner(System.in);
 				float plusmoney=c.nextFloat();
 				moneyr=moneyr+plusmoney;
@@ -135,25 +135,25 @@ public class SHJ {
 					
 				}
 				else{
-					if((moneyr-C1)>=0) {//ÅĞ¶ÏÄãµÄÖ§¸¶ÄÜÁ¦£¨Æ¶ÇîÓë·ñ²é¿´Æ÷£©
+					if((moneyr-C1)>=0) {//åˆ¤æ–­ä½ çš„æ”¯ä»˜èƒ½åŠ›ï¼ˆè´«ç©·ä¸å¦æŸ¥çœ‹å™¨ï¼‰
 						moneyr=moneyr-C1; 
-						System.out.println("Ö§¸¶³É¹¦£¡\n  »ñµÃÒ»Æ¿C1ÒûÁÏ£¡\n");	
+						System.out.println("æ”¯ä»˜æˆåŠŸï¼\n  è·å¾—ä¸€ç“¶C1é¥®æ–™ï¼\n");	
 						return moneyr;}
 					} 
 				}
 			return moneyr;
 		}
 		
-		//Ñ¡ÔñD1
+		//é€‰æ‹©D1
 				public static float chooseD(float moneyr,float D1){
-					if((moneyr-D1)>=0) {//ÅĞ¶ÏÄãµÄÖ§¸¶ÄÜÁ¦£¨Æ¶ÇîÓë·ñ²é¿´Æ÷£©
+					if((moneyr-D1)>=0) {//åˆ¤æ–­ä½ çš„æ”¯ä»˜èƒ½åŠ›ï¼ˆè´«ç©·ä¸å¦æŸ¥çœ‹å™¨ï¼‰
 						moneyr=moneyr-D1; 
-						System.out.println("Ö§¸¶³É¹¦£¡\n  »ñµÃÒ»Æ¿D1ÒûÁÏ£¡\n");
+						System.out.println("æ”¯ä»˜æˆåŠŸï¼\n  è·å¾—ä¸€ç“¶D1é¥®æ–™ï¼\n");
 						
 					}else{
-						System.out.println("Ö§¸¶DÎ´³É¹¦£¬Çë¼ÓÇ®£¡");//ÈÃÄã´òÇ®
-						System.out.println("ÄúÍ¶ÈëµÄÓ²±ÒÊıÁ¿Îª:\n");//ÊäÈëÇ®Êı
-						System.out.println("(ÊäÈëÊı×Ö0»Øµ½Ö÷²Ëµ¥)\n"); 
+						System.out.println("æ”¯ä»˜DæœªæˆåŠŸï¼Œè¯·åŠ é’±ï¼");//è®©ä½ æ‰“é’±
+						System.out.println("æ‚¨æŠ•å…¥çš„ç¡¬å¸æ•°é‡ä¸º:\n");//è¾“å…¥é’±æ•°
+						System.out.println("(è¾“å…¥æ•°å­—0å›åˆ°ä¸»èœå•)\n"); 
 						java.util.Scanner c=new java.util.Scanner(System.in);
 						float plusmoney=c.nextFloat();
 						moneyr=moneyr+plusmoney;
@@ -165,9 +165,9 @@ public class SHJ {
 							}
 							
 						}
-						else{if((moneyr-D1)>=0) {//ÅĞ¶ÏÄãµÄÖ§¸¶ÄÜÁ¦£¨Æ¶ÇîÓë·ñ²é¿´Æ÷£©
+						else{if((moneyr-D1)>=0) {//åˆ¤æ–­ä½ çš„æ”¯ä»˜èƒ½åŠ›ï¼ˆè´«ç©·ä¸å¦æŸ¥çœ‹å™¨ï¼‰
 							moneyr=moneyr-D1; 
-							System.out.println("Ö§¸¶³É¹¦£¡\n  »ñµÃÒ»Æ¿D1ÒûÁÏ£¡\n");	
+							System.out.println("æ”¯ä»˜æˆåŠŸï¼\n  è·å¾—ä¸€ç“¶D1é¥®æ–™ï¼\n");	
 							return moneyr;}
 							}
 						} 
@@ -176,8 +176,8 @@ public class SHJ {
 				
 				public static float menu() {
 					float x=0;
-					System.out.println("¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª\n A1 3.0Ôª  B1 2.5Ôª\n C1 3.5Ôª  D1 5.0Ôª \n");
-					System.out.println("ÊÇ·ñ¼ÌĞø¹ºÂò£¿");
+					System.out.println("â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”\n A1 3.0å…ƒ  B1 2.5å…ƒ\n C1 3.5å…ƒ  D1 5.0å…ƒ \n");
+					System.out.println("æ˜¯å¦ç»§ç»­è´­ä¹°ï¼Ÿ");
 					java.util.Scanner str=new java.util.Scanner(System.in);
 					String isno=str.next();
 					if("Y".equals(isno)) {
